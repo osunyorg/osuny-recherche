@@ -2,6 +2,11 @@
 
 baseURL: https://recherche.osuny.org
 
+## OSUNY
+osuny:
+  website:
+    id: 4155e8ec-72e6-482a-953d-a8e3228ba28a
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
