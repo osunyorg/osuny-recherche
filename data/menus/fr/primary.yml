@@ -8,6 +8,13 @@ items:
   children: []
   path: "/posts"
   file: content/fr/posts/_index.html
+- title: Expositions
+  target: "/expositions/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/exhibitions"
+  file: content/fr/exhibitions/_index.html
 - title: Équipe
   target: "/equipe/"
   kind: page
@@ -22,13 +29,6 @@ items:
   children: []
   path: "/events"
   file: content/fr/events/_index.html
-- title: Expositions
-  target: "/expositions/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/exhibitions"
-  file: content/fr/exhibitions/_index.html
 - title: Organisations
   target: "/organisations/"
   kind: page
