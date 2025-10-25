@@ -1,7 +1,7 @@
 theme: osuny-www-design-system
 _merge: deep
-params:
-  summary:
-    position: hero
-  search:
-    active: true
+# params:
+#   summary:
+#     position: hero
+#   search:
+#     active: true
