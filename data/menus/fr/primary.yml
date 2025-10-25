@@ -1,39 +1,18 @@
 ---
 title: Menu principal
 items:
-- title: Actualités
-  target: "/actualites/"
-  kind: page
+- title: Carnet de recherche
+  target: "/actualites/carnet-de-recherche/"
+  kind: category
   new_tab: false
   children: []
-  path: "/posts"
-  file: content/fr/posts/_index.html
-- title: Expositions
-  target: "/expositions/"
-  kind: page
+  path: "/posts_categories/carnet-de-recherche"
+  file: content/fr/posts_categories/carnet-de-recherche/_index.html
+- title: Revues de littérature
+  target: "/actualites/revues-de-litterature/"
+  kind: category
   new_tab: false
   children: []
-  path: "/exhibitions"
-  file: content/fr/exhibitions/_index.html
-- title: Équipe
-  target: "/equipe/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/persons"
-  file: content/fr/persons/_index.html
-- title: Agenda
-  target: "/agenda/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/events"
-  file: content/fr/events/_index.html
-- title: Organisations
-  target: "/organisations/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/organizations"
-  file: content/fr/organizations/_index.html
+  path: "/posts_categories/revues-de-litterature"
+  file: content/fr/posts_categories/revues-de-litterature/_index.html
 
