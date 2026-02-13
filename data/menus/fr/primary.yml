@@ -2,17 +2,21 @@
 title: Menu principal
 items:
 - title: Carnet de recherche
+  slug: carnet-de-recherche
   target: "/publications/carnet-de-recherche/"
   kind: category
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/posts_categories/carnet-de-recherche"
   file: content/fr/posts_categories/carnet-de-recherche/_index.html
 - title: Revues de littérature
+  slug: revues-de-litterature
   target: "/publications/revues-de-litterature/"
   kind: category
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/posts_categories/revues-de-litterature"
   file: content/fr/posts_categories/revues-de-litterature/_index.html
 
