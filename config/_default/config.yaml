@@ -1,7 +1,6 @@
 theme: osuny-www-design-system
 _merge: deep
-# params:
-#   summary:
-#     position: hero
-#   search:
-#     active: true
+params:
+  logo:
+    header: '/assets/images/logo-osuny-blanc.svg'
+    footer: '/assets/images/logo-osuny-blanc.svg'
