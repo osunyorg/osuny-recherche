@@ -1,24 +1,33 @@
 ---
 title: Menu principal
 items:
-- title: Carnet de recherche
-  slug: carnet-de-recherche
-  target: "/actualites/carnet-de-recherche/"
-  kind: category
+- title: Comités
+  slug: comites
+  target: "/comites/"
+  kind: page
   new_tab: false
   children: []
   descendants_targets: []
-  path: "/posts_categories/carnet-de-recherche"
-  file: content/fr/posts_categories/carnet-de-recherche/_index.html
-- title: Revues de littérature
-  slug: revues-de-litterature
-  target: "/actualites/revues-de-litterature/"
-  kind: category
+  path: "/pages/comites"
+  file: content/fr/pages/comites/_index.html
+- title: Actualités
+  slug: actualites
+  target: "/actualites/"
+  kind: page
   new_tab: false
   children: []
   descendants_targets: []
-  path: "/posts_categories/revues-de-litterature"
-  file: content/fr/posts_categories/revues-de-litterature/_index.html
+  path: "/posts"
+  file: content/fr/posts/_index.html
+- title: Agenda
+  slug: agenda
+  target: "/agenda/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/events"
+  file: content/fr/events/_index.html
 - title: Rejoindre le Slack
   slug: rejoindre-le-slack
   target: https://join.slack.com/t/osunysupport/shared_invite/zt-18m912cwz-s4UvB8qYgts9YHFebmeCKQ
