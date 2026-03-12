@@ -4,3 +4,11 @@ params:
   logo:
     header: '/assets/images/logo-osuny-blanc.svg'
     footer: '/assets/images/logo-osuny-blanc.svg'
+
+  image_sizes:
+    sections:
+      home:
+        hero:
+          mobile:   400
+          tablet:   1000
+          desktop:  1600
