@@ -6,8 +6,18 @@ items:
   target: "/comites/"
   kind: page
   new_tab: false
-  children: []
-  descendants_targets: []
+  children:
+  - title: Comité scientifique
+    slug: comite-scientifique
+    target: "/comites/comite-scientifique/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/comites/comite-scientifique"
+    file: content/fr/pages/comites/comite-scientifique/_index.html
+  descendants_targets:
+  - "/comites/comite-scientifique/"
   path: "/pages/comites"
   file: content/fr/pages/comites/_index.html
 - title: Actualités
