@@ -15,6 +15,11 @@
             ) }}
             {{ partial "persons/partials/person/avatar.html" (dict
               "person" .
+              "sizes" (dict
+                "desktop" 118
+                "tablet" 118
+                "mobile" 75
+              )
             ) }}
           </li>
         {{ end }}

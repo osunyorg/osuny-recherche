@@ -21,6 +21,7 @@
 
 
 .custom-hero-persons
+    --person-size: #{pxToRem(118)}
     margin-left: var(--grid-gutter-negative)
     margin-right: var(--grid-gutter-negative)
     margin-top: $spacing-5
@@ -33,13 +34,24 @@
         width: 100%
         overflow: hidden
     li
-        height: pxToRem(118)
-        width: pxToRem(118)
+        height: var(--person-size)
+        width: var(--person-size)
         position: relative
         flex-shrink: 0
-        a
-            @include sr-only
+        transition: opacity 0.7s ease-in-out
+        &.fade-out
+            opacity: 0
         &:nth-child(odd)
             margin-top: pxToRem(50)
+        a
+            @include sr-only
         img
             filter: grayscale(1)
+    @include media-breakpoint-down(md)
+        --person-size: #{pxToRem(75)}
+        margin-top: $spacing-3
+        ul
+            li
+                &:nth-child(odd)
+                    margin-top: pxToRem(25)
+
