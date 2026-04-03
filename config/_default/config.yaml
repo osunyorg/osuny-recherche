@@ -4,6 +4,9 @@ params:
   logo:
     header: '/assets/images/logo-osuny-blanc.svg'
     footer: '/assets/images/logo-osuny-blanc.svg'
+  blocks:
+    ignored:
+      - block-class-circles
 
   image_sizes:
     sections:
