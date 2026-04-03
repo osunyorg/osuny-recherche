@@ -7,7 +7,6 @@ params:
   blocks:
     ignored:
       - block-class-circles
-
   image_sizes:
     sections:
       home:

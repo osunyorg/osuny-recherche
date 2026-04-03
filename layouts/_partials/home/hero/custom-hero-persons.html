@@ -1,0 +1,24 @@
+{{ $block := where .Params.contents "html_class" "block-class-circles" }}
+{{ range $block | first 1 }}
+  <div class="custom-hero-persons" id="custom-hero-persons">
+    <ul>
+      {{ $persons := partial "helpers/objects/GetFromPathSlice" .data.persons }}
+      {{ range $persons }}
+        {{ if .Params.image }}
+          <li>
+            {{ partial "persons/partials/person/name.html" (dict
+              "person" .
+              "heading_level" 2
+              "options" (dict
+                "link" true
+              )
+            ) }}
+            {{ partial "persons/partials/person/avatar.html" (dict
+              "person" .
+            ) }}
+          </li>
+        {{ end }}
+      {{ end }}
+    </ul>
+  </div>
+{{ end }}

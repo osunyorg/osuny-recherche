@@ -6,22 +6,40 @@
                 .content
                     text-align: center
                     margin-bottom: $spacing-5
-                    figure
-                        img
-                            height: 100px
-                            object-fit: cover
         @include media-breakpoint-up(desktop)
             .container
                 padding-bottom: space(50)
                 .content
+                    display: flex
                     flex-direction: column
                     align-items: center
                     text-align: center
                     .hero-text
-                        width: columns(10)
+                        width: 100%
                         .hero-actions
                             margin-top: $spacing-5
-                    figure
-                        margin-top: space(40)
-                        width: 100%
-                        order: -1
+
+
+.custom-hero-persons
+    margin-left: var(--grid-gutter-negative)
+    margin-right: var(--grid-gutter-negative)
+    margin-top: $spacing-5
+    ul
+        @include list-reset
+        display: flex
+        align-items: start
+        justify-content: center
+        gap: pxToRem(15)
+        width: 100%
+        overflow: hidden
+    li
+        height: pxToRem(118)
+        width: pxToRem(118)
+        position: relative
+        flex-shrink: 0
+        a
+            @include sr-only
+        &:nth-child(odd)
+            margin-top: pxToRem(50)
+        img
+            filter: grayscale(1)

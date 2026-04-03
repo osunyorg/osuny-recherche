@@ -1,0 +1,9 @@
+{{ $title := partial "header/helpers/GetTitle" . }}
+
+{{ partial "header/hero.html" (dict
+  "title" $title
+  "breadcrumb" false
+  "hero_text_complement" ( partial "home/hero/custom-hero-persons.html" . )
+  "sizes" site.Params.image_sizes.sections.home.hero
+  "context" .
+) }}
