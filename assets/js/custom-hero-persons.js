@@ -1,3 +1,5 @@
+import { isReducedMotionPrefered } from './theme/utils/isReducedMotionPrefered';
+
 window.osuny = window.osuny || {};
 
 window.osuny.CustomHeroPersons = function (container) {
@@ -8,7 +10,10 @@ window.osuny.CustomHeroPersons = function (container) {
     this.style = document.createElement('style');
     document.head.appendChild(this.style);
     this.resize();
-    this.start();
+
+    if (!isReducedMotionPrefered()) {
+        this.start();
+    }
 
     window.addEventListener('resize', this.resize.bind(this));
 };
@@ -22,7 +27,10 @@ window.osuny.CustomHeroPersons.prototype.start = function () {
 
 window.osuny.CustomHeroPersons.prototype.animatePosition = function (position) {
     const delay = Math.random() * this.intervalTimeout;
+
+    // Shuffle visible positions
     this.swap(position, this.getRandomIndex());
+
     setTimeout(() => {
         this.fadeOut(position);
     }, delay)
