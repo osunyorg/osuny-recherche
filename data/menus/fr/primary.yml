@@ -6,68 +6,8 @@ items:
   target: "/comites/"
   kind: page
   new_tab: false
-  children:
-  - title: Comité back
-    slug: comite-back
-    target: "/comites/comite-back/"
-    kind: page
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/pages/comites/comite-back"
-    file: content/fr/pages/comites/comite-back/_index.html
-  - title: Comité design
-    slug: comite-design
-    target: "/comites/comite-design/"
-    kind: page
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/pages/comites/comite-design"
-    file: content/fr/pages/comites/comite-design/_index.html
-  - title: Comité front
-    slug: comite-front
-    target: "/comites/comite-front/"
-    kind: page
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/pages/comites/comite-front"
-    file: content/fr/pages/comites/comite-front/_index.html
-  - title: Comité gestion de contenu
-    slug: comite-gestion-de-contenu
-    target: "/comites/comite-gestion-de-contenu/"
-    kind: page
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/pages/comites/comite-gestion-de-contenu"
-    file: content/fr/pages/comites/comite-gestion-de-contenu/_index.html
-  - title: Comité infrastructure
-    slug: comite-infrastructure
-    target: "/comites/comite-infrastructure/"
-    kind: page
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/pages/comites/comite-infrastructure"
-    file: content/fr/pages/comites/comite-infrastructure/_index.html
-  - title: Comité scientifique
-    slug: comite-scientifique
-    target: "/comites/comite-scientifique/"
-    kind: page
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/pages/comites/comite-scientifique"
-    file: content/fr/pages/comites/comite-scientifique/_index.html
-  descendants_targets:
-  - "/comites/comite-back/"
-  - "/comites/comite-design/"
-  - "/comites/comite-front/"
-  - "/comites/comite-gestion-de-contenu/"
-  - "/comites/comite-infrastructure/"
-  - "/comites/comite-scientifique/"
+  children: []
+  descendants_targets: []
   path: "/pages/comites"
   file: content/fr/pages/comites/_index.html
 - title: Actualités
