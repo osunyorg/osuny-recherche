@@ -9,7 +9,7 @@ breadcrumb_title: >-
 url: "/comites/comite-scientifique/"
 slug: "comite-scientifique"
 date: 2026-03-12T09:24:11+01:00
-lastmod: 2026-03-12T09:46:44+01:00
+lastmod: 2026-04-18T17:23:37+02:00
 meta:
   hugo:
     permalink: "/comites/comite-scientifique/"
@@ -18,7 +18,7 @@ meta:
     slug: "comite-scientifique"
   dates:
     created_at: 2026-03-12T09:24:11+01:00
-    updated_at: 2026-03-12T09:46:44+01:00
+    updated_at: 2026-04-18T17:23:37+02:00
     published_at: 2026-03-12T09:24:11+01:00
 search:
   id: "98b5a960-9490-4b76-a06d-29826f1ad206"
@@ -30,7 +30,7 @@ search:
     Comité scientifique
 
   body: >-
-    <p>Membres du comité </p>
+    <p>Les membres  <br> Membres du comité </p>  <p> Les événements  <br> Les actualités  </p>
 
 breadcrumbs:
   - title: >-
@@ -45,7 +45,7 @@ breadcrumbs:
 design:
   full_width: false
   toc:
-    present: false
+    present: true
     offcanvas: false
 
 
@@ -62,10 +62,30 @@ header_cta:
 
 
 contents_reading_time:
-  seconds: 1
+  seconds: 3
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: title
+    title: >-
+      Les membres
+    slug: >-
+      les-membres
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Les membres
+        heading: 2
+
+    data:
+      layout: classic
+
+
   - kind: block
     template: persons
     title: >-
@@ -73,15 +93,15 @@ contents:
     slug: >-
       membres-du-comite
     ranks:
-      base: 2
-      self: 2
-      children: 3
+      base: 3
+      self: 3
+      children: 4
     top:
       active: true
       title: 
         value: >-
           Membres du comité
-        heading: 2
+        heading: 3
         link: "/personnes/categories/comites/scientifique/"
 
     data:
@@ -157,6 +177,46 @@ contents:
       quantity: 12
 
 
+  - kind: block
+    template: title
+    title: >-
+      Les événements
+    slug: >-
+      les-evenements
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Les événements
+        heading: 2
+
+    data:
+      layout: classic
+
+
+
+
+  - kind: block
+    template: title
+    title: >-
+      Les actualités
+    slug: >-
+      les-actualites
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Les actualités
+        heading: 2
+
+    data:
+      layout: classic
 
 
   - kind: block
@@ -164,8 +224,8 @@ contents:
 
 
     ranks:
-      base: 2
-      children: 2
+      base: 3
+      children: 3
     top:
       active: false
 
@@ -210,8 +270,8 @@ contents:
 
 
     ranks:
-      base: 2
-      children: 2
+      base: 3
+      children: 3
     top:
       active: false
 
