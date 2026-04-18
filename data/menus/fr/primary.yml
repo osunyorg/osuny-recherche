@@ -1,6 +1,15 @@
 ---
 title: Menu principal
 items:
+- title: Participer
+  slug: participer
+  target: "/participer/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/participer"
+  file: content/fr/pages/participer/_index.html
 - title: Comités
   slug: comites
   target: "/comites/"
