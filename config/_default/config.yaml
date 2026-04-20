@@ -14,5 +14,5 @@ params:
           mobile:   400
           tablet:   1000
           desktop:  1600
-  # organizations:
-  #   dark_logo_background: true
+  organizations:
+    dark_logo_background: true

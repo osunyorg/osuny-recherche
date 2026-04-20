@@ -1,4 +1,9 @@
 .organization
     .media
         figure
-            filter: saturate(0) invert(1)
+            img
+                mix-blend-mode: initial
+            &.organization-logo--default
+                filter: invert(1) grayscale(1)
+            &.organization-logo--on-dark-background
+                filter: grayscale(1) 
