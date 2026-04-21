@@ -7,6 +7,10 @@ osuny:
   website:
     id: 4155e8ec-72e6-482a-953d-a8e3228ba28a
 
+## PARAMS
+params:
+  _merge: deep
+  plausible: "commun.osuny.org"
 
 ## LANGUAGE
 defaultContentLanguage: fr
